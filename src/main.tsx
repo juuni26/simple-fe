@@ -5,7 +5,7 @@ import { RouterProvider } from 'react-router-dom'
 
 import './globals.css'
 
-import { Helmet, HelmetProvider } from 'react-helmet-async'
+import { HelmetProvider } from 'react-helmet-async'
 
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { router } from './router.tsx'
