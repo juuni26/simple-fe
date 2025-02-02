@@ -18,6 +18,8 @@ Just go to homepage and everything will be intuitive to use.
 
 ## Live on Netlify
 
+https://sprightly-banoffee-5ce336.netlify.app/
+
 ## Stack
 
 - Vite

@@ -1,4 +1,4 @@
-import { Inspect, JsonServiceClient } from '@servicestack/client'
+import { JsonServiceClient } from '@servicestack/client'
 import {
   GetAllCustomers,
   GetCustomerDetails,

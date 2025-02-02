@@ -1,8 +1,12 @@
+import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 
 export default function HomePage() {
   return (
     <div className="max-w-40p-2 mx-auto">
+      <Helmet>
+        <title>HomePage</title>
+      </Helmet>
       <h1 className="mb-4 text-center text-2xl font-bold">List Services</h1>
       <div className="flex flex-col gap-2">
         <Link

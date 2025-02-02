@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async'
 import { useSearchParams } from 'react-router-dom'
 
 import { BackHome } from '@/components/atoms/backHome'
@@ -63,6 +64,9 @@ export const CustomersPage = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Customers Page</title>
+      </Helmet>
       <h1 className="text-center text-2xl font-bold">Customers</h1>
       <div className="mb-4">
         <CustomersFilter

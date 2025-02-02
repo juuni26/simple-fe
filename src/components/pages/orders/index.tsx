@@ -1,4 +1,4 @@
-import { LoaderCircle } from 'lucide-react'
+import { Helmet } from 'react-helmet-async'
 import { useSearchParams } from 'react-router-dom'
 
 import { BackHome } from '@/components/atoms/backHome'
@@ -63,6 +63,9 @@ export const OrdersPage = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Orders Page</title>
+      </Helmet>
       <h1 className="text-center text-2xl font-bold">Orders</h1>
       <div className="mb-4">
         <OrdersFilter

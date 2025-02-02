@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async'
 import { useParams } from 'react-router-dom'
 
 import { BackHome } from '@/components/atoms/backHome'
@@ -78,6 +79,9 @@ export function CustomerDetailPage() {
   // public fax: string
   return (
     <div>
+      <Helmet>
+        <title>Customer Detail | {customer.companyName}</title>
+      </Helmet>
       <div className="px-4 sm:px-0">
         <h3 className="text-base/7 font-semibold text-gray-900">
           Customer Information
